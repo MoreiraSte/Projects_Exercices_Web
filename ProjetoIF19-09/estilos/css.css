@@ -1,0 +1,76 @@
+#logo{  /*estrutura da logo*/
+				grid-area:logo;
+				background-color:black;
+				margin-top:0;
+				
+}
+#topo{ /*estrutura do topo*/
+				grid-area:topo;
+				background-color:black;
+}
+
+#menu{ /*estrutura do menu*/
+	grid-area:menu;
+	background-color:blue;
+	
+}
+.i_menu{
+	border: 1px solid black;
+	height: 60px;
+	width: 200px;
+	display: inline-block;
+	text-align:center;
+	vertical-align: middle;
+	line-height:100px;
+	background-color:#1C1C1C;
+	float: left;
+	box-sizing:border-box;
+}
+.i_menu a{
+	color:white;
+	text-decoration:none;
+}
+.i_menu:hover{
+	background-color:blue;
+}
+.menu{
+	border: 1px solid black;
+	padding:0;
+	width:600px;
+	height:60px;
+	margin:0 auto;
+}
+#conteudo{ /*estrutura do conteúdo*/
+	grid-area:conteudo;
+	background-color:black ;
+	padding: 10px 20% 10px 20%;
+	font-size:22px;
+	font-family:Times New Roman;
+}
+#rodape{ /*estrutura do rodapé*/
+	grid-area:rodape;
+	background-color:blue;
+	padding: 10px 20% 10px 20%;
+}
+body{    /*estrutura do body*/
+	display: grid;
+	grid-template-areas:"logo topo topo topo"
+						"menu menu menu menu "
+						"conteudo conteudo conteudo conteudo"
+						"rodape rodape rodape rodape";
+}
+.logo{
+	width: 200px;
+	height: 200px;
+}
+.slogan {
+	height: 200px;
+	width: 1057px;
+}
+.voltar{
+	height:50px;
+	width:50px;
+	position: fixed;
+	bottom:30px;
+	right:25px;
+}

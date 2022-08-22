@@ -1,0 +1,21 @@
+formulario.html
+---------------
+
+* Formulário simples usando o método GET. Observem que não foi usado o parâmetro required nos objetos como obrigatórios para digitação.
+
+* Este formulário está usando objetos do tipo text, password, submit e reset.
+
+* Podemos analisar as propriedades size e maxlength aplicadas no objetivo estado. Considera-se size o tamanho do campo para digitação e maxlength a quantidade máxima de caracteres que poderão ser digitados que, neste exemplo, no máximo 2 caracteres.
+
+recebe.php
+----------
+
+* Uso do método GET para receber os valores do formulário. Cada variável recebendo um determinado objeto.
+
+* Uso da função strlen. Esta função é uma abreviação de STRing LENgth = tamanho da string. Ela conta o total de caracteres da variável.
+
+* Uso da função empty. Esta função verifica se a variável está vazia, ou seja, se não foi digitado nenhum valor.
+
+* Uso da função strstr. Esta função verifica se na variável há o caractere definido entre ''. Se for FALSE não encontrou, se for TRUE encontrou. No nome, por exemplo, verifica se foi digitado o nome completo, pois se torna valor composto. Exemplo: Pedro Dias. Se a pessoa digitar Pedro, está incorreto, se a pessoa digitar PedroDias também está incorreto, pois precisa ter espaço entre os dois nomes. Já no e-mail precisa ter o caractere @, senão está incorreto.
+
+

@@ -1,0 +1,116 @@
+#logo{  /*estrutura da logo*/
+				grid-area:logo;
+				height:190px;
+				background-color:#640404;
+				}
+#slogan{ /*estrutura do slogan*/
+				grid-area:slogan;
+				height:190px;
+				background-color:#E6E6FA;
+				}
+#menu{ /*estrutura do menu*/
+				grid-area:menu;
+				height:70px;
+				background-color:#87CEFA;
+	}
+	/* classes relacionadas ao menu*/
+					.i_menu{
+					border: 1px solid black;
+					height: 70px;
+					width: 90px;
+					display: inline-block;
+					text-align:center;
+					vertical-align: middle;
+					line-height:70px;
+					background-color:#87CEFA;
+					float: left;
+					box-sizing:border-box;
+				
+					}
+					.i_menu a{
+					color:white;
+					text-decoration:none;
+					}
+					.i_menu:hover{
+					background-color:black;
+					}
+					.menu{
+					border: 1px solid gray;
+					padding:0;
+					width:360px;
+					height:50px;
+					margin:0 auto;
+					}
+#conteudo{ /*estrutura do conteúdo*/
+				grid-area:conteudo;
+				background-color:#E6E6FA;
+				}
+#rodape{ /*estrutura do rodapé*/
+				grid-area:rodape;
+				height:610px;
+				background-color:#4876FF;
+				}
+body{    /*estrutura do body*/
+				display: grid;
+				background-color:#BCD2EE;
+				grid-template-areas:"logo slogan slogan slogan slogan"
+									"menu menu menu menu menu"
+									"conteudo conteudo conteudo conteudo conteudo"
+									"rodape rodape rodape rodape rodape";
+				}
+				/*classes ds imagens para configurar tamanho*/
+.imglogo{
+	height: 150px;
+	width: 130px;
+	display: block;
+	margin: 0 auto;
+}
+.imgslogan{
+	height: 200px;
+	width: 1460px;
+	display: block;
+	float:right;
+}	
+.imgclassico{
+	height:350px;
+	width:350px;
+	display: block;
+	float: left;
+}
+.imgcanvas{
+	height:300px;
+	width:300px;
+	display: block;
+	float: left;
+}
+.imgmultiplo{
+	height:300px;
+	width:500px;
+	display: block;
+	float: left;
+}
+.contato{
+	text-align:center;
+}
+.tabprodutos{
+	width:50px;
+	margin:0 auto;
+	text-align:center;
+}
+iframe{
+	margin:0 auto;
+	display:block;
+}
+/*cores nas letras*/
+.locali{
+	text-align:center;
+}
+.tel{
+	color:red;
+}
+.tel2{
+	color:red;
+}
+.zapp{
+	color:red;
+}

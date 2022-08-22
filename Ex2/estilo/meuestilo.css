@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 1rem 2px 1rem;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    border: solid 1px rgb(0, 0, 0);
+    padding: 10px 2rem 10px 2rem;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    text-decoration:underline ;
+}
+
+.logo{
+    height: 150px;
+	width: 130px;
+	display: block;
+	margin: 0 auto;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+#topo1{
+
+}
+#topo{
+
+    margin-top: -30px;  
+}
+.hero{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 110px;
+    margin-top: -36px;
+    border-radius: 20px;
+}
+.body{
+    background-image: linear-gradient(to bottom right, red, rgb(49, 2, 2));}
+.conteudo{
+    margin: 3rem 3rem 3rem 3rem;
+    padding: 1.5rem;
+    
+}
+.conteudo h1,p{
+    margin-bottom: 5rem;
+    margin-top: -70px;
+}
+#h1{
+  text-align: center;
+  transform: uppercase;
+  color: black;
+}
+.conteudo a{ 
+    background-color: rgb(19, 0, 0);
+    border-radius: 5px;
+    padding: 15px 32px 15px 30px;
+    animation-name: example;
+    animation-duration: 15s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-duration: 0.4s;
+    margin-top: -40;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color:crimson;}
+    50%  {background-color: rgb(121, 0, 0);}
+    100% {background-color: rgb(46, 1, 1);}
+}
+.conteudo a:hover{
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(255, 116, 116);
+    text-decoration: underline;
+}
+p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.main{
+    display: flex; /* quebra linha e coloca na mesma linha os elementos*/
+    justify-content: space-evenly; /*dá espaço entre os elementos (space-around dá espaço ao redor deles, tem tambem o space-between)*/
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -70px;
+    
+}
+.card{
+
+  justify-content: space-evenly;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 4rem;
+
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 330px;
+  transition: all 0.3s ease-out;
+  border-left: 10px solid #ffffff;
+  height: 300px;
+  display: block;
+ 
+
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+.card p {
+    color: #a3a5ae;
+    font-size: 20px;
+    
+  }
+  .voltar{
+    height:50px;
+    width:50px;
+    position: fixed;
+    bottom:30px;
+    right:25px;
+
+  }
+  .icon{
+
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #ee5e5e;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  

@@ -1,0 +1,23 @@
+principal.php
+-------------
+
+- Uso da função include que tem como objetivo abrir arquivos externos. É como se particionarmos o programa. Para o programador acaba sendo mais fácil para dar manutenções nas implementações.
+
+- Neste arquivo há chamada de dois outros arquivos com a instrução include, sendo menu.php e rodape.php.
+
+- Exemplos de uso:
+
+include "menu.php" ----> irá chamar o arquivo no mesmo diretório que está principal.php.
+
+include "arquivos/menu.php ----> irá acessar a pasta arquivos e chamar o arquivo menu.php.
+
+
+menu.php
+--------
+- Simples menu com 3 links. Será chamado no arquivo principal.php.
+
+
+rodape.php
+----------
+- Simples tela. Será chamado no arquivo principal.php.
+

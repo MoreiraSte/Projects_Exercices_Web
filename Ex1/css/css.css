@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom right, rgb(0, 21, 22), rgb(43, 46, 216));
+
+    text-align: center;
+
+}
+.topo{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+#topo{
+    
+}
+.main{
+    padding: 82px;
+    padding-right: 90px;
+    width: 50%;
+    margin-left: 500px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(193, 178, 235), rgb(51, 17, 173));
+
+ 
+}
+.hero{
+    padding: 2rem;
+    margin: 40px;
+    margin-top: -10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(3, 79, 109), rgb(59, 149, 252));
+
+}
+.hero h1{
+text-transform: uppercase;
+margin: 1rem 0 2rem 0;
+
+}
+.hero h2{
+ text-transform: capitalize;
+margin-bottom: 1rem;
+}
+#sobre{
+    text-align:justify ;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.botao{
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    border-radius:5px;
+    animation-name: example;
+    animation-duration: 10s;
+
+    
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+#ulEnd{
+    color: white;
+    border-style: dotted;
+    border-color: black;
+
+
+}
+#ulForm{
+    color: white;
+    border-style: dotted;
+    border-color: black;
+
+
+    
+}
+#olExp{
+    color: white;
+    border-style: dotted;
+    border-color: black;
+
+
+}
+#ulCurso{
+    color: white;
+    border-style: dotted;
+    border-color: black;
+
+
+}
+#one{
+    
+    border-color:rgb(255, 255, 255);
+    border-style: double;
+}
+#two{
+    
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+}
+#tree{
+    
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+}
+#four{
+    
+    border-color: #ffffff;
+    border-style: double;
+}
+#imag2{
+    width: 90px;
+    height: 90px;
+    margin-top: -40px;
+}
+#ob{
+
+    margin-top: 30px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+#par{
+    border-style: dotted;
+    border-color: black;
+
+}
+.voltar {
+  
+        height:50px;
+        width:50px;
+        position: fixed;
+        bottom:30px;
+        right:25px;
+    
+}

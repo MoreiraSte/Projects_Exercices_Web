@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head> 
+		<title> Criação de menu com CSS </title>
+		<meta charset="utf-8">
+		<style>
+			.i_menu{
+				border: 1px solid purple;
+				height: 25px;
+				width: 60px;
+				display:block;
+				text-align:center;
+				vertical-align: middle;
+				line-height:25px;
+				background-color:#836FFF;
+				box-sizing:border-box;
+				
+				}
+				.i_menu a{
+					color:white;
+					text-decoration:none;
+				}
+				.i_menu:hover{
+					background-color:black;
+					}
+				.menu{
+					border: 1px solid gray;
+					padding:0;
+					width:60px;
+					height:125px;
+					}
+				h1{
+				    text-align:center;
+					color:#E8E8E8;
+					}
+				body{
+					background-image:url('galaxia.jpg');
+					background-repeat:no repeat;
+					background-size:100%;
+					}
+				
+		</style>
+	</head>
+	<body>
+		<h1> Exemplo de menu vertical - CSS</h1>
+		<ul class="menu">
+			<li class="i_menu"><a href="#"> Opcão 1</a></li>
+			<li class="i_menu"><a href="#"> Opcão 2</a></li>
+			<li class="i_menu"><a href="#"> Opcão 3</a></li>
+			<li class="i_menu"><a href="#"> Opcão 4</a></li>
+			<li class="i_menu"><a href="#"> Opcão 5</a></li>
+		</ul>
+	</body>
+</html>
+<!--apenas tirou o inline e o float left,tirar margin auto --!>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+	<title>Galeria com JavaScript</title>
+		<meta charset="utf-8">
+		<style>
+			#gal{
+				width: 500px;
+				height: 400px;
+				display: block;
+			}
+		</style>
+		<script>
+			function ImgGaleria(Imagem){
+				document.getElementById("gal").src = Imagem;
+			}
+			function AlteraTexto(Conteudo){
+				document.getElementById("texto").innerHTML = Conteudo;
+				
+				}
+			
+			
+		</script>
+	</head>
+	<body>
+		<h1> Galeria de Imagens </h1>
+		<img id="gal" src="img_01.jpg" alt="Imagem 1"><br>
+		<hr>
+		<button onclick="ImgGaleria('img_01.jpg');">1</button>
+		<button onclick="ImgGaleria('img_02.jpg');">2</button>
+		<button onclick="ImgGaleria('img_03.jpg');">3</button>
+		<button onclick="ImgGaleria('img_04.jpg');">4</button>
+		<button onclick="ImgGaleria('img_05.jpg');">5</button>
+		<h1>Alterando texto</h1>
+		<p>Vai aparecer um texto!!!</p>
+		<p id="texto"></p>
+		<button onclick="AlteraTexto(prompt());">Apareça!!!</button>
+		<button onclick="AlteraTexto('');">Desapareça</button>
+
+
+	</body>
+</html>

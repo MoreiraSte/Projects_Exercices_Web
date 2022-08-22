@@ -1,0 +1,20 @@
+datahora.php
+------------
+
+* Função date usada para capturar a data e/ou hora do sistema.
+
+Abaixo uma lista de parâmetros, abordando com exemplos:
+
+- date('d/m/Y') - 24/08/2020
+- date('d/m/y') - 24/08/20
+- date('d') - 24
+- date('m') - 08
+- date('Y') - 2020 ou date('y') - 20
+- date('D') - sun
+- date('w') - 0
+- date('M') - aug
+- date('h:i:s') - 8:10:15
+- date('H:i:s') - 20:10:15
+
+* Para formatar as horas no formato brasileiro: 
+date_default_timezone_set('America/Sao_Paulo');  

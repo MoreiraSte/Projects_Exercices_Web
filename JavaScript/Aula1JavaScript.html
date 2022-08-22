@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Exemplo de JavaScript</title>
+		<meta charset="utf-8">
+		<script>
+			function AlteraCor(Cor){
+				document.getElementById("alt_cor").style.backgroundColor = Cor;
+			}
+			function AlteraFundo(){
+				document.getElementById("alt_cor").style.backgroundColor = 
+				document.getElementById("nova_cor").value;
+			}
+
+		</script>
+	</head>
+	<body id="alt_cor">
+		<h1>Alterando as cores do JavaScrpt</h1>
+		<p>Escolha a cor</p>
+		<button onclick="AlteraCor('blue');">Azul</button>
+		<button onclick="AlteraCor('red');">Vermelho</button>
+		<hr>
+		<input type="color" id="nova_cor">
+		<button onclick="AlteraFundo();">Alterar o fundo</button>
+
+	</body>
+</html>
+		

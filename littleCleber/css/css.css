@@ -1,0 +1,75 @@
+.container{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(159, 223, 253);
+    padding: 5rem;
+    border-radius: 30px;
+}
+#title{
+    text-align: center;
+}
+
+input[type="text"],input[type="number"] {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.5rem;
+    padding: 10px 1rem 10px 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#title2{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(19, 0, 0);
+    border-radius: 5px;
+    padding: 15px 32px 15px 30px;
+    animation-name: example;
+    animation-duration: 15s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-duration: 0.4s;
+    float: right;
+    border: 1px solid rgb(226, 226, 226);
+   
+}
+@keyframes example {
+    0%   {background-color:aqua;}
+    25%  {background-color:rgb(55, 10, 255);}
+    50%  {background-color: rgb(10, 0, 65);}
+    100% {background-color: rgb(17, 200, 255);}
+}
+input[type="file"]{
+  
+    display: none;
+  
+   
+}
+label{
+    background-color: rgb(19, 0, 0);
+    border-radius: 5px;
+    padding: 15px 32px 15px 30px;
+    animation-name: example2;
+    animation-duration: 15s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    width: 6%;
+}
+@keyframes example2 {
+    0%   {background-color:aqua;}
+    25%  {background-color:rgb(55, 10, 255);}
+    50%  {background-color: rgb(10, 0, 65);}
+    100% {background-color: rgb(17, 200, 255);}
+}
+select{
+    width: 103.8%;
+    display: flex;
+    margin-bottom: 0.5rem;
+    padding: 10px 1rem 10px 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

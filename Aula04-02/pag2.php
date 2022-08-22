@@ -1,0 +1,15 @@
+<?php
+	if (isset($_COOKIE['CookieTeste']))
+		echo "Conteudo do cookie $_COOKIE[CookieTeste].";
+	else
+		echo "Cookie em branco.";
+
+
+	/* isset é uma função para verificar se o conteúdo de uma variável ou, neste caso,
+	um cookie não está vazio. Isso quer dizer que se não estiver vazio, então ele imprime o conteúdo do cookie,
+	conforme pag1.php que criou o cookie com o conteúdo. Caso esteja vazio, o else será executado imprimindo a frase
+	"cookie em branco". Podemos fazer isso também: 
+	$x=$_COOKIE['CookieTeste']; echo $x;
+	Podemos criar vários cookies ao meu tempo, considerando o conteúdo que precisa estar no computador 
+	para executar outras ações em outras páginas, considerando os conteúdos dos cookies. */
+?>

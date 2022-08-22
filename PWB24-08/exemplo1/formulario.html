@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Formulário</title>
+<style type="text/css">
+	body {
+		background-color: #A9F5E1;
+		margin-left: 20%;
+		margin-right: 20%;
+		border: 1px dotted gray;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+<form action="processa.php" method="POST">
+<p><b>O que você achou do site?</b>
+<dl><dd>
+<input type="radio" name="avaliacao" value="muito bom" checked>Muito Bom
+<input type="radio" name="avaliacao" value="bom">Bom
+<input type="radio" name="avaliacao" value="regular">Regular
+<input type="radio" name="avaliacao" value="pessimo">Péssimo
+</dd></dl>
+<p><b>Qual a seção que você mais gostou?</b>
+<dl><dd>
+<select name="secao" size="1">
+<option value="em cartaz">Em cartaz</option>
+<option value="trilha sonora">Trilha Sonora</option>
+<option value="fotos">Galeria de Fotos</option>
+<option value="outra">Outra</option>
+</select>
+Outra: <input type="text" size="26" maxlength="256" name="outra">
+</dd></dl>
+<p><b>Digite seus comentários no espaço abaixo:</b>
+<dl><dd>
+<textarea name="comentarios" rows="5" cols="42"></textarea>
+</dd></dl>
+<p><b>Diga-nos como entrar em contato com você:</b>
+<dl><dd>
+<pre>
+Nome <input type="text" size="35" maxlength="256" name="nome">
+Email <input type="text" size="35" maxlength="256" name="email">
+Fone <input type="text" size="35" maxlength="256" name="fone">
+</pre>
+</dd></dl>
+<dl><dd>
+<input type="checkbox" name="novidades" value="sim">
+Quero receber novidades do site por e-mail
+</dd></dl>
+<p><input type="submit" value="Enviar Dados">
+<input type="reset" value="Limpar Formulário"></p>
+</form>
+</body>
+</html>

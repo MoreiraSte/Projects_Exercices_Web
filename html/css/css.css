@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.hero{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 110px;
+   margin-top:-9px;
+    border-radius: 20px;
+}
+.conteudo h1,p{
+    margin-bottom: 5rem;
+    margin-top:10px
+    
+}
+
+.conteudo a:hover{
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(255, 116, 116);
+    text-decoration: underline;
+}
+p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+#h1{
+    text-align: center;
+    margin-top:8px;
+}
+
+ 

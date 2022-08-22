@@ -1,0 +1,13 @@
+Arquivo formulario.html
+-----------------------
+
+* Uso de estilo interno: cor de fundo, margens, borda, espaçamento e fonte.
+* Uso de formulário com o método POST
+* Uso de diferentes tipos de objetos no formulário: radio, select, text, textarea, checkbox, submit e reset.
+ 
+Arquivo processa.php
+--------------------
+
+* Uso de estilo interno: cor de fundo, margens, borda, espaçamento e fonte.
+* Definição de variáveis para receber os valores dos objetos do formulário.
+* Uso de tabela para impressão dos valores das variáveis, considerando os valores recebidos do formulário.

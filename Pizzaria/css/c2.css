@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .hero{
+        background-color: rgb(143, 3, 3)	;
+        padding: 2.5rem;
+        color: white;
+    }
+    .hero h1{
+        text-transform: uppercase;
+    }
+    .hero h1,p{
+        margin-bottom: 1.5rem;
+    }
+    .hero a{
+        background-color: white;
+        padding: 10px 2rem 10px 2rem;
+        border-radius: 5px;
+        text-decoration:none ;
+        color: black;
+    }
+    .hero a:hover{
+        background-color: rgb(235, 129, 129);
+        text-decoration:underline ;
+    }
+    .main{
+        overflow: hidden;
+        display: flex; /* quebra linha e coloca na mesma linha os elementos*/
+        justify-content: space-evenly; /*dá espaço entre os elementos (space-around dá espaço ao redor deles, tem tambem o space-between)*/
+        max-width: 900px;
+        margin: 0 auto;
+       /* border: black solid 1px;*/
+        padding: 2rem;
+        margin-top: 30px;
+
+        
+    }
+    
+    .main2{
+        overflow: hidden;
+        display: flex; /* quebra linha e coloca na mesma linha os elementos*/
+        justify-content: space-evenly; /*dá espaço entre os elementos (space-around dá espaço ao redor deles, tem tambem o space-between)*/
+        max-width: 900px;
+        margin: 0 auto;
+       /* border: black solid 1px;*/
+        padding: 2rem;
+        margin-top: 30px;
+       
+    }
+    
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 1rem 2px 1rem;
+    }
+    nav a{
+        color: black;
+        text-decoration:none;
+        border: solid 1px rgb(255, 37, 37);
+        padding: 10px 2rem 10px 2rem;
+        border-radius: 5px;
+    }
+    nav a:hover{
+        background-color: rgb(255, 56, 56);
+        text-decoration:underline ;
+    }
+    
+    
+.conteudo {
+}   
+.info{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+} 
+.info h2{
+    margin-top: 10px;
+}
+
+.everything{
+    background-image: linear-gradient(to bottom right, rgb(241, 58, 58), rgb(179, 6, 6));
+
+}
+
+

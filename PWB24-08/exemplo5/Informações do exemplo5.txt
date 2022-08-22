@@ -1,0 +1,42 @@
+Pasta css
+---------
+Contém formatação de objetos do formulário (arquivo notasaluno.php).
+
+
+Pasta imagens
+-------------
+Contém imagens do fundo da página e do formulário (imagens usadas no arquivo notasaluno.php).
+
+
+index.html
+----------
+Irá chamar a página notasaluno.php.
+
+
+notasaluno.php
+--------------
+- Possui dois arquivos css para formatar a página.
+
+- Para mudar o fundo da página, foi usada a função rand que gerará um número randômico de 1 até 5. Este número está associado às imagens que estão na pasta imagens. Toda vez que houver atualização desta página, será modificado o fundo. Portanto, as imagens precisam ter os nomes 1, 2, 3, 4 e 5.
+
+- Formulário com objetos do tipo text, select e submit.
+
+- Placeholder é uma propriedade definida nos objetos na qual o texto entre aspas ficará dentro do objeto na apresentação do formulário.
+
+- Required é uma propriedade definida nos objetos que coloca o campo como obrigatório, sendo assim, o usuário terá que digitar algo em cada objeto.
+
+- Autofocus é uma propriedade definida no objeto aluno, onde o cursor ficará posicionado com a apresentação do formulário.
+
+
+calcularmedia.php
+-----------------
+
+- Está recebendo os objetos do formulário.
+
+- A variável média está armazendo o cálculo da média, considerando os valores recebidos pelo formulário.
+
+- Apresentação dos valores recebidos pelo formulário, além da média calculada.
+
+- A decisão lógica irá verificar se o aluno foi aprovado ou não. Primeiramente irá verificar a frequência e sendo >=75, analisa a média. Caso a frequência seja <75, não analisa a média e já mostra que o aluno foi reprovado por falta.
+
+- Um link permitirá ao usuário retornar ao formulário para digitação de novos dados.

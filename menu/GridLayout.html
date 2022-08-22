@@ -1,0 +1,53 @@
+<!doctype  html>
+<html lang="pt-br">
+	<head>
+		<title>Exemplo de grid layout</title>
+		<meta charset="utf-8">
+		<style>
+			#topo{
+				grid-area:topo;
+				height:100px;
+				background-color:rgb(60,90,153);
+				}
+			#codireita{
+				grid-area:codireita;
+				height:650px;
+				background-color:rgb(243,244,249);
+				}
+			#coesquerda{
+				grid-area:coesquerda;
+				height:650px;
+				background-color:rgb(243,244,249);
+				}
+			#rodape{
+				grid-area:rodape;
+				height:100px;
+				}
+			body{
+				display : grid;
+				grid-template-areas: "topo topo"
+									"coesquerda codireita"
+									"rodape rodape";
+				}
+		</style>
+	</head>
+	<body>
+		<div id="topo">
+			<h1> facebook </h1>
+		</div>
+		<div id="coesquerda">
+			<h2>O facebook ajuda voce a se conectar<br>
+			e compatilhar com as pessoas que fazem parte<br>
+			dasua vida. </h2>
+			 <img src="img_face.png" alt="" >
+			
+		</div>
+		<div id="codireita">
+			<h2>Abra uma conta</h2>
+			<p>é rapido e facil</p>
+		</div>
+		<div id="rodape">
+			<p>Portugues (Brasil)</p>
+		</div>
+	</body>
+</html>
